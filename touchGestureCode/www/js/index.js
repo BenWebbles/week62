@@ -13,7 +13,7 @@ $(document).on("pagecreate","#pageone",function(){
 	$('#swipetext').on("swipeleft",function(){
     	$(this).css('color', 'green');
   	})
-    ('#swiperight',function(){ $(this).css('color','blue');} )
+  
 
 
 });
