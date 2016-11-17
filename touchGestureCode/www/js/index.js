@@ -24,5 +24,5 @@ function random() {
 document.addEventListener("deviceready", onDeviceReady, false);
 function onDeviceReady() {
     console.log(navigator.notification);
-	navigator.notification.beep(3);
+	navigator.notification.beep(1);
 }
