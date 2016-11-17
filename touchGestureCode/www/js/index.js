@@ -8,7 +8,10 @@ $(document).on("pagecreate","#pageone",function(){
 		console.log("tap");
 		var r = random();
 		alert(r);
+		function onDeviceReady() {
+		console.log(navigator.notification);
 		navigator.notification.beep(3);
+		}
 	});
    
 
@@ -19,4 +22,9 @@ $(document).on("pagecreate","#pageone",function(){
 
 function random() {
 	return !Math.round(Math.random());
+}
+
+document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady() {
+    console.log(navigator.notification);
 }
