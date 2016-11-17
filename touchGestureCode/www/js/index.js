@@ -8,6 +8,7 @@ $(document).on("pagecreate","#pageone",function(){
 		console.log("tap");
 		var r = random();
 		alert(r);
+		navigator.notification.beep(3);
 	});
    
 
