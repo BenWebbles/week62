@@ -6,10 +6,10 @@
         id        = "com.phonegap.helloworld"
         version   = "1.0.0">
 
-    <name>Week 6</name>
+    <name>mems</name>
 
     <description>
-       Week 6 
+       hid el mem 
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
