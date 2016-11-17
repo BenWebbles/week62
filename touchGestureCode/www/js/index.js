@@ -8,10 +8,7 @@ $(document).on("pagecreate","#pageone",function(){
 		console.log("tap");
 		var r = random();
 		alert(r);
-		function onDeviceReady() {
-		console.log(navigator.notification);
-		navigator.notification.beep(3);
-		}
+		
 	});
    
 
@@ -27,4 +24,5 @@ function random() {
 document.addEventListener("deviceready", onDeviceReady, false);
 function onDeviceReady() {
     console.log(navigator.notification);
+	navigator.notification.beep(3);
 }
