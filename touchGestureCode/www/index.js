@@ -47,3 +47,9 @@ function failPosition(error) {
 
 var unixtime = new Date(position.timestamp);
 var date = unixtime.toDateString();
+
+document.addEventListener("deviceready", onDeviceReady, false);
+
+function onDeviceReady() {
+    console.log("navigator.geolocation works well");
+    }

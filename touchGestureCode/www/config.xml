@@ -18,7 +18,7 @@
   </author>
 <plugin name="cordova-plugin-dialogs" spec="~1.3.0" />
 <plugin name="cordova-plugin-whitelist" spec="~1.3.0" />
-<plugin name="org.apache.cordova.geolocation" spec="0.3.10" source="pgb" />
+<plugin name="cordova-plugin-geolocation" spec="~2.4.0" />
 <!-- Don't block any requests -->
 <access origin="*" />
 </widget>
